@@ -15,6 +15,8 @@
 		3ABB3ABE25594AD2003FC1AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB3ABC25594AD2003FC1AB /* LaunchScreen.storyboard */; };
 		3ABB3AC925594AD2003FC1AB /* BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3AC825594AD2003FC1AB /* BankTests.swift */; };
 		3ABB3AD425594AD3003FC1AB /* BankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3AD325594AD3003FC1AB /* BankUITests.swift */; };
+		3ABB3AEE255AB42F003FC1AB /* ExcelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3AED255AB42F003FC1AB /* ExcelFormulas.swift */; };
+		3ABB3AF3255AB6B8003FC1AB /* Double+asCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB3AF2255AB6B8003FC1AB /* Double+asCurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3ABB3ACF25594AD3003FC1AB /* BankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABB3AD325594AD3003FC1AB /* BankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankUITests.swift; sourceTree = "<group>"; };
 		3ABB3AD525594AD3003FC1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABB3AED255AB42F003FC1AB /* ExcelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFormulas.swift; sourceTree = "<group>"; };
+		3ABB3AF2255AB6B8003FC1AB /* Double+asCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+asCurrency.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				3ABB3AB125594ACA003FC1AB /* AppDelegate.swift */,
 				3ABB3AB325594ACA003FC1AB /* SceneDelegate.swift */,
 				3ABB3AB525594ACA003FC1AB /* ViewController.swift */,
+				3ABB3AF2255AB6B8003FC1AB /* Double+asCurrency.swift */,
+				3ABB3AED255AB42F003FC1AB /* ExcelFormulas.swift */,
 				3ABB3AB725594ACA003FC1AB /* Main.storyboard */,
 				3ABB3ABA25594AD2003FC1AB /* Assets.xcassets */,
 				3ABB3ABC25594AD2003FC1AB /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABB3AEE255AB42F003FC1AB /* ExcelFormulas.swift in Sources */,
+				3ABB3AF3255AB6B8003FC1AB /* Double+asCurrency.swift in Sources */,
 				3ABB3AB625594ACA003FC1AB /* ViewController.swift in Sources */,
 				3ABB3AB225594ACA003FC1AB /* AppDelegate.swift in Sources */,
 				3ABB3AB425594ACA003FC1AB /* SceneDelegate.swift in Sources */,
